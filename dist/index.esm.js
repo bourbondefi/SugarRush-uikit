@@ -2123,8 +2123,8 @@ var Icon$S = function (props) {
 
 var Logo = function (_a) {
     var isDark = _a.isDark, props = __rest(_a, ["isDark"]);
-    return (React.createElement(Svg, __assign({ viewBox: "0 0 205 26" }, props),
-        React.createElement("image", { width: "205", height: "26", href: isDark ? '/images/LogoTextNewDark.png' : '/images/LogoTextNewWhite.png' })));
+    return (React.createElement(Svg, __assign({ viewBox: "0 0 205 50" }, props),
+        React.createElement("image", { width: "205", height: "50", href: isDark ? '/images/LogoTextNewDark.png' : '/images/LogoTextNewWhite.png' })));
 };
 
 var Icon$T = function (props) {

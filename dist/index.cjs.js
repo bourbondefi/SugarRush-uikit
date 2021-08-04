@@ -2399,18 +2399,14 @@ var socials = [
         items: [
             {
                 label: "English",
-                href: "https://t.me/AztecSwapChat",
-            },
-            {
-                label: "Announcements",
-                href: "https://t.me/AztecSwapAnn",
+                href: "https://t.me/SugarRushOfficial",
             },
         ],
     },
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/AztecSwap",
+        href: "https://twitter.com/SugarRushBSC",
     },
 ];
 var MENU_HEIGHT = 64;
@@ -2524,7 +2520,7 @@ var templateObject_1$D;
 var PriceLink = styled__default['default'].a(templateObject_1$E || (templateObject_1$E = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  svg {\n    transition: transform 0.3s;\n  }\n  :hover {\n    svg {\n      transform: scale(1.2);\n    }\n  }\n"], ["\n  display: flex;\n  align-items: center;\n  svg {\n    transition: transform 0.3s;\n  }\n  :hover {\n    svg {\n      transform: scale(1.2);\n    }\n  }\n"])));
 var CakePrice = function (_a) {
     var cakePriceUsd = _a.cakePriceUsd;
-    return cakePriceUsd ? (React__default['default'].createElement(PriceLink, { href: "https://dex.guru/token/0x8298fea38aa8627316ffd943fe001b69cac8174d-bsc", target: "_blank" },
+    return cakePriceUsd ? (React__default['default'].createElement(PriceLink, { href: "https://exchange.pancakeswap.finance/#/swap?outputCurrency=0xf81aa223042d6AaDC0096C781Ef9Ad19Dd20eac6", target: "_blank" },
         React__default['default'].createElement(Icon$v, { width: "24px", mr: "8px" }),
         React__default['default'].createElement(Text, { color: "textSubtle", bold: true }, "$" + cakePriceUsd.toFixed(3)))) : (React__default['default'].createElement(Skeleton, { width: 80, height: 24 }));
 };
